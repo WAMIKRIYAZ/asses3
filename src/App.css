@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-image: linear-gradient(
+    lightblue,
+    pink,
+    lightyellow
+    );
+  height: 100vh;
+  text-align: center;
+}
+label{
+  line-height: 60px;
+  font-size: large;
+  font-weight: bold;
+}
+input{
+  background-color: lightblue;
+  height: 35px;
+  width: 200px;
+  border-radius: 25px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+label[for = "ipt2"]{
+  position: relative;
+  right: 20px;
+}
+#ipt2{
+  position: relative;
+  right: 20px;
+}
+button{
+  height: 40px;
+  width: 180px;
+  background-color: aqua;
+  border-radius: 25px;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.Employees_data{
+  display: flex;
+  flex-wrap: wrap;
+}
+.data{
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: hotpink;
+  text-align: center;
+  padding:10px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+.connect{
+  text-decoration: none;
+  color: black;
+}
+.complete{
+  background-image: linear-gradient(
+    lightblue,
+    pink,
+    lightyellow
+    );
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
